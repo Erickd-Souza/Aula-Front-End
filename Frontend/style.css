@@ -3,30 +3,41 @@
     padding: 0;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: #00000038;
 }
 header{
+    background-color: #093164;
+    padding: 20px;
+}
+h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(19, 16, 214, 0.658);
-    padding: 10px;
     color: white;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav{
     text-align: center;
-    margin: 10px;
+    background-color: #093164;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(43, 106, 158);
+    background-color: #004AAD;
     padding: 10px;
     border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid white; 
 }
 nav a:hover{
-    background-color: rgba(43, 106, 158, 0.664);
+    background-color: #00C2CB;
     border-radius: 20px;
     padding: 10px;
     transition-duration: 0.5s;
@@ -41,18 +52,42 @@ main p{
     text-indent: 10px;
 }
 main section{
-    background-color: rgba(129, 115, 115, 0.281);
-    padding: 5px;
+    background-color: #81737348;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    margin: 10px;
+    padding: 15px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    max-width: 100px;
+    max-height:100px;
+    align-items: center;
+    display: inline-block;
+    margin: 10px;
+}
+ul{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-top: 5px;
+    padding-bottom: 5PX;
 }
 footer{
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: #093164;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
+    padding: 8px;
 }
+.rodape{
+    text-align: center;
+}
+
