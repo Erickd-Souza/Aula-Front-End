@@ -1,0 +1,221 @@
+body{
+    background-color: #6E5C62;
+    color: white;
+    text-align: center;  
+}
+h1{
+    max-width: 125px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Mitr', sans-serif;
+}
+.icon{
+    width: 65px;
+}
+.icon > span {
+    border: 2px solid #B7AEB4;
+    border-radius: 5px;
+    padding: 1px;
+    color: #B7AEB4;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 20px;
+}
+td{
+    background-color: #615458;
+    height: 40px;
+    width: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.verde{
+  background-color: #3AA394;  
+}
+.marrom{
+    background-color: #312A2C;
+}
+.amarelo{
+    background-color: #D3AD69;
+}
+.borda{
+    border: 4px solid #4C4347;
+    background-color: #6E5C62;
+}
+.conteiner_teclado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 8px;
+}
+.enter{
+    border: none;
+    background-color: #312A2C ;
+    color: white;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.teclado_marrom{
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #312A2C;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.teclado_amarelo{
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #D3AD69;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.transparente{
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #594B4F;
+    color: #6E5C62;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.teclado_verde{
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #3AA394;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.l2 > span{
+    border: none;
+    border-radius: 5px;
+    background-color: #3AA394;
+    color: white;
+    padding: 13px 20px;
+    vertical-align: sub;
+    margin-left: 15px;
+   
+}
+.l1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px; 
+}
+.l2{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left:99px;
+    gap: 5px;
+}
+.l3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 128px;
+    gap: 5px;
+}
+@media(max-width:550px){
+    .enter{
+        border: none;
+        background-color: #312A2C ;
+        color: white;
+        font-weight: bold;
+        width: 170px;
+        height: 40px;
+        border-radius: 5px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .teclado_marrom{
+        border: none;
+        border-radius: 5px;
+        min-width: 10%;
+        height: 40px;
+        background-color: #312A2C;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .teclado_amarelo{
+        border: none;
+        border-radius: 5px;
+        min-width: 10%;
+        height: 40px;
+        background-color: #D3AD69;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .transparente{
+        border: none;
+        border-radius: 5px;
+        min-width: 10%;
+        height: 40px;
+        background-color: #594B4F;
+        color: #6E5C62;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .teclado_verde{
+        border: none;
+        border-radius: 5px;
+        min-width: 10%;
+        height: 40px;
+        background-color: #3AA394;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .l2 > span{
+        border: none;
+        border-radius: 5px;
+        background-color: #3AA394;
+        color: white;
+        padding: 5px 8px;
+        vertical-align: sub;
+        margin-left: 15px;
+       
+    }
+}
