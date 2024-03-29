@@ -1,10 +1,11 @@
 function mover(){
     let imagem = document.getElementById("aparecer");
     if(imagem.style.display === 'none'){
-        imagem.style.display = 'block';
-        imagem.style.display = 'none';
+        document.getElementById('aparecer').style.display = 'block';
+        document.getElementById('sumir').style.display = 'none';
+        
     }else{
-        imagem.style.display = 'none';
-        imagem.style.display = 'block';
+        document.getElementById('aparecer').style.display = 'none';
+        document.getElementById('sumir').style.display = 'block';
     }
 }
